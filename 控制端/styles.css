@@ -1,0 +1,249 @@
+/* 基础样式 */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --bg-color: #ecf0f1;
+  --card-bg: #ffffff;
+  --border-color: #bdc3c7;
+  --text-color: #333333;
+  --light-text: #7f8c8d;
+}
+
+body {
+  font-family: "Noto Sans SC", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.court-control-panel {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* 面板共有样式 */
+.case-panel,
+.court-process,
+.role-control {
+  padding: 1rem;
+  overflow-y: auto;
+  border-right: 1px solid var(--border-color);
+  background-color: var(--card-bg);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 左侧案件面板 */
+.case-panel {
+  width: 25%;
+}
+
+.case-selector select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.case-selector button {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.case-files {
+  margin-top: 2rem;
+}
+
+/* 中间庭审控制面板 */
+.court-process {
+  flex-grow: 2;
+  width: 50%;
+}
+
+.process-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.stage-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.stage-btn {
+  padding: 0.6rem 1rem;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.stage-btn.active {
+  background-color: var(--secondary-color);
+  color: white;
+  border-color: var(--secondary-color);
+}
+
+.focus-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: var(--bg-color);
+  border-left: 3px solid var(--secondary-color);
+}
+
+.debate-btn {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.action-bar {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.primary-btn {
+  padding: 1rem 2rem;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+/* 右侧角色面板 */
+.role-control {
+  width: 25%;
+}
+
+.role-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+.role-item.speaking {
+  background-color: rgba(52, 152, 219, 0.1);
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.speak-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.speaking-status {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: var(--bg-color);
+  border-radius: 4px;
+  text-align: center;
+}
+
+#current-speaker {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+/* 文档链接样式 */
+.document-links {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--bg-color);
+}
+
+.document-links a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.document-links a:hover {
+  text-decoration: underline;
+}
+
+/* 文件树样式 */
+#file-tree {
+  margin-top: 1rem;
+}
+
+.file-tree-item {
+  padding: 0.3rem 0;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.file-tree-item:hover {
+  color: var(--secondary-color);
+}
+
+.file-tree-folder {
+  font-weight: bold;
+}
+
+.file-tree-file {
+  padding-left: 1.2rem;
+}
+
+/* 角色建议样式 */
+.role-item.suggested {
+  background-color: rgba(46, 204, 113, 0.1);
+  border-color: #2ecc71;
+}
+
+/* 文档生成中样式 */
+.document-generating {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--bg-color);
+  text-align: center;
+}
+
+/* 响应式调整 */
+@media (max-width: 1200px) {
+  .court-control-panel {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .case-panel,
+  .court-process,
+  .role-control {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+}
