@@ -62,11 +62,9 @@
 │ ├── trial_procedure.md # 庭审流程控制
 │ ├── dispute_focus_simplified.md # 争议焦点处理（简化版）
 │ ├── documents.md # 判决书生成
-│ ├── evidence_rules.md # 证据规则
-│ ├── evidence_procedure.md # 证据质证流程
+│ ├── evidence_rules.md # 证据规则与质证流程
 │ ├── cognitive_separation.md # 认知分离监控
-│ ├── role_management.md # 角色管理
-│ ├── role_isolation.md # 角色隔离机制
+│ ├── role_management.md # 角色管理与隔离系统
 │ ├── rhythm_control.md # 节奏控制
 │ ├── judge_penetration.md # 法官穿透审判
 │ ├── evidence_chain.md # 证据链验证
