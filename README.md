@@ -68,7 +68,6 @@
 │ ├── role_management.md # 角色管理
 │ ├── role_isolation.md # 角色隔离机制
 │ ├── rhythm_control.md # 节奏控制
-│ ├── scoring_simplified.md # 统一评分（简化版）
 │ ├── judge_penetration.md # 法官穿透审判
 │ ├── evidence_chain.md # 证据链验证
 │ ├── advanced_features.md # 高级功能
