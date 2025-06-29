@@ -25,8 +25,7 @@
 ```
 模拟法庭/
 ├── core/                    # 核心配置模块
-│   ├── principles.md        # 系统核心原则
-│   ├── setup.md             # 系统初始化配置
+│   ├── system_core_integrated.md  # 系统核心设计（整合文件）
 │   ├── trial_procedure.md   # 庭审流程控制
 │   ├── dispute_focus_logic.md # 争议焦点处理
 │   └── ...                  # 其他核心配置文件
