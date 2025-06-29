@@ -108,7 +108,7 @@
 
 ### 争议焦点处理
 
-争议焦点识别与处理请参考[争议焦点处理](./dispute_focus_logic.md)
+争议焦点识别与处理请参考[争议焦点处理](./dispute_focus_integrated.md)
 
 ### 判决书生成
 

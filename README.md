@@ -10,7 +10,7 @@
 ├── core/ # 核心配置模块
 │ ├── system_core_integrated.md # 系统核心设计
 │ ├── trial_procedure.md # 庭审流程控制
-│ ├── dispute_focus_logic.md # 争议焦点处理
+│ ├── dispute_focus_integrated.md # 争议焦点处理
 │ ├── documents.md # 判决书生成
 │ ├── evidence_rules.md # 证据规则
 │ ├── cognitive_separation.md # 认知分离监控
