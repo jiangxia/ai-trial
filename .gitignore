@@ -5,6 +5,8 @@ Thumbs.db
 # 编辑器文件
 .idea/
 .vscode/
+.promptx/
+.claude/
 *.swp
 *.swo
 

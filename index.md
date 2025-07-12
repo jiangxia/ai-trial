@@ -93,21 +93,27 @@ graph LR
 - 法官行为原则.md + 律师行为原则.md
 - 案件类型识别机制
 
-### ⚡ 阶段 2: 按需角色激活
+### ⚡ 阶段 2: 无面代入角色激活
 
 ```mermaid
 graph TD
-    A[法官指定发言] --> B[角色激活引擎]
-    B --> C[加载角色文件夹]
-    C --> D[注意力路由引擎]
+    A[法官指定发言] --> B[激活无面者]
+    B --> C[学习目标角色]
+    C --> D[角色代入完成]
     D --> E[配置专属注意力]
     E --> F[设置委托人身份]
     F --> G[执行角色宣誓]
     G --> H[角色就绪发言]
+    
+    B --> B1[promptx_action("noface")]
+    C --> C1[learn @file://角色路径]
 ```
 
 **触发时机**：律师首次被指定发言时
-**加载内容**：对应文件夹内所有材料 + 角色专属注意力配置
+**关键创新**：通过无面学习机制代入角色，解决PromptX升级后的角色引用问题
+**角色路径**：
+- 律师: `/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/role/lawyer`
+- 法官: `/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/role/judge`
 
 ### 🔄 阶段 3: 流程智能加载
 
