@@ -1,0 +1,105 @@
+{
+  "currentState": "initial",
+  "stateHistory": [
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2025-09-28T12:13:43.681Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2025-09-28T12:13:55.464Z",
+      "args": [
+        "judge"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "recall",
+      "timestamp": "2025-09-28T12:15:25.632Z",
+      "args": [
+        "judge",
+        "交通事故纠纷"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "project",
+      "timestamp": "2025-09-28T12:16:53.775Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/模拟法庭",
+          "ideType": "claude"
+        }
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2025-09-28T12:18:21.877Z",
+      "args": [
+        "lawyer"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "recall",
+      "timestamp": "2025-09-28T12:19:12.111Z",
+      "args": [
+        "lawyer",
+        "交通事故 赔偿"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2025-09-28T12:20:23.408Z",
+      "args": [
+        "judge"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2025-09-28T12:20:31.118Z",
+      "args": [
+        "lawyer"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2025-09-28T12:21:48.527Z",
+      "args": [
+        "lawyer"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2025-09-28T12:22:20.597Z",
+      "args": [
+        "judge"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2025-09-28T12:22:26.645Z",
+      "args": [
+        "lawyer"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2025-09-28T12:23:16.786Z",
+      "args": [
+        "judge"
+      ]
+    }
+  ],
+  "lastUpdated": "2025-09-28T12:23:16.796Z"
+}

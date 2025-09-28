@@ -1,0 +1,138 @@
+{
+  "version": "2.0.0",
+  "source": "project",
+  "metadata": {
+    "version": "2.0.0",
+    "description": "project 级资源注册表",
+    "createdAt": "2025-07-15T01:40:48.676Z",
+    "updatedAt": "2025-07-15T01:40:48.700Z",
+    "resourceCount": 8
+  },
+  "resources": [
+    {
+      "id": "compliance-review",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Compliance Review 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/role/labor-law-expert/execution/compliance-review.execution.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:40:48.685Z",
+        "updatedAt": "2025-07-15T01:40:48.685Z",
+        "scannedAt": "2025-07-15T01:40:48.685Z",
+        "path": "role/labor-law-expert/execution/compliance-review.execution.md"
+      }
+    },
+    {
+      "id": "legal-consultation",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Legal Consultation 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/role/labor-law-expert/execution/legal-consultation.execution.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:40:48.686Z",
+        "updatedAt": "2025-07-15T01:40:48.686Z",
+        "scannedAt": "2025-07-15T01:40:48.686Z",
+        "path": "role/labor-law-expert/execution/legal-consultation.execution.md"
+      }
+    },
+    {
+      "id": "labor-law-expertise",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Labor Law Expertise 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/role/labor-law-expert/knowledge/labor-law-expertise.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:40:48.687Z",
+        "updatedAt": "2025-07-15T01:40:48.687Z",
+        "scannedAt": "2025-07-15T01:40:48.687Z",
+        "path": "role/labor-law-expert/knowledge/labor-law-expertise.knowledge.md"
+      }
+    },
+    {
+      "id": "legal-practice",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Legal Practice 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/role/labor-law-expert/knowledge/legal-practice.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:40:48.688Z",
+        "updatedAt": "2025-07-15T01:40:48.688Z",
+        "scannedAt": "2025-07-15T01:40:48.688Z",
+        "path": "role/labor-law-expert/knowledge/legal-practice.knowledge.md"
+      }
+    },
+    {
+      "id": "labor-law-expert",
+      "source": "project",
+      "protocol": "role",
+      "name": "Labor Law Expert 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/role/labor-law-expert/labor-law-expert.role.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:40:48.689Z",
+        "updatedAt": "2025-07-15T01:40:48.689Z",
+        "scannedAt": "2025-07-15T01:40:48.689Z",
+        "path": "role/labor-law-expert/labor-law-expert.role.md"
+      }
+    },
+    {
+      "id": "legal-analysis",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Legal Analysis 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/role/labor-law-expert/thought/legal-analysis.thought.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:40:48.691Z",
+        "updatedAt": "2025-07-15T01:40:48.691Z",
+        "scannedAt": "2025-07-15T01:40:48.691Z",
+        "path": "role/labor-law-expert/thought/legal-analysis.thought.md"
+      }
+    },
+    {
+      "id": "legal-dossier-analyzer",
+      "source": "project",
+      "protocol": "tool",
+      "name": "Legal Dossier Analyzer tool",
+      "description": "tool类型的资源",
+      "reference": "@project://.promptx/resource/tool/legal-dossier-analyzer/legal-dossier-analyzer.tool.js",
+      "metadata": {
+        "createdAt": "2025-07-15T01:40:48.696Z",
+        "updatedAt": "2025-07-15T01:40:48.696Z",
+        "scannedAt": "2025-07-15T01:40:48.696Z",
+        "path": "tool/legal-dossier-analyzer/legal-dossier-analyzer.tool.js"
+      }
+    },
+    {
+      "id": "pdf-smart-summarizer",
+      "source": "project",
+      "protocol": "tool",
+      "name": "Pdf Smart Summarizer tool",
+      "description": "tool类型的资源",
+      "reference": "@project://.promptx/resource/tool/pdf-smart-summarizer/pdf-smart-summarizer.tool.js",
+      "metadata": {
+        "createdAt": "2025-07-15T01:40:48.700Z",
+        "updatedAt": "2025-07-15T01:40:48.700Z",
+        "scannedAt": "2025-07-15T01:40:48.700Z",
+        "path": "tool/pdf-smart-summarizer/pdf-smart-summarizer.tool.js"
+      }
+    }
+  ],
+  "stats": {
+    "totalResources": 8,
+    "byProtocol": {
+      "execution": 2,
+      "knowledge": 2,
+      "role": 1,
+      "thought": 1,
+      "tool": 2
+    },
+    "bySource": {
+      "project": 8
+    }
+  }
+}

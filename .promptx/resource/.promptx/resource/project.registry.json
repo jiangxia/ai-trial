@@ -1,0 +1,115 @@
+{
+  "version": "2.0.0",
+  "source": "project",
+  "metadata": {
+    "version": "2.0.0",
+    "description": "project 级资源注册表",
+    "createdAt": "2025-07-06T06:58:07.090Z",
+    "updatedAt": "2025-07-06T06:58:07.094Z",
+    "resourceCount": 6
+  },
+  "resources": [
+    {
+      "id": "labor-law-expert",
+      "source": "project",
+      "protocol": "role",
+      "name": "Labor Law Expert 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/role/labor-law-expert/labor-law-expert.role.md",
+      "metadata": {
+        "createdAt": "2025-07-06T06:58:07.091Z",
+        "updatedAt": "2025-07-06T06:58:07.091Z",
+        "scannedAt": "2025-07-06T06:58:07.091Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/模拟法庭/.promptx/resource/role/labor-law-expert/labor-law-expert.role.md",
+        "fileType": "role"
+      }
+    },
+    {
+      "id": "legal-analysis",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Legal Analysis 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/role/labor-law-expert/thought/legal-analysis.thought.md",
+      "metadata": {
+        "createdAt": "2025-07-06T06:58:07.092Z",
+        "updatedAt": "2025-07-06T06:58:07.092Z",
+        "scannedAt": "2025-07-06T06:58:07.092Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/模拟法庭/.promptx/resource/role/labor-law-expert/thought/legal-analysis.thought.md",
+        "fileType": "thought"
+      }
+    },
+    {
+      "id": "compliance-review",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Compliance Review 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/role/labor-law-expert/execution/compliance-review.execution.md",
+      "metadata": {
+        "createdAt": "2025-07-06T06:58:07.092Z",
+        "updatedAt": "2025-07-06T06:58:07.092Z",
+        "scannedAt": "2025-07-06T06:58:07.092Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/模拟法庭/.promptx/resource/role/labor-law-expert/execution/compliance-review.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "legal-consultation",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Legal Consultation 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/role/labor-law-expert/execution/legal-consultation.execution.md",
+      "metadata": {
+        "createdAt": "2025-07-06T06:58:07.092Z",
+        "updatedAt": "2025-07-06T06:58:07.092Z",
+        "scannedAt": "2025-07-06T06:58:07.092Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/模拟法庭/.promptx/resource/role/labor-law-expert/execution/legal-consultation.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "labor-law-expertise",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Labor Law Expertise 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/role/labor-law-expert/knowledge/labor-law-expertise.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-07-06T06:58:07.093Z",
+        "updatedAt": "2025-07-06T06:58:07.093Z",
+        "scannedAt": "2025-07-06T06:58:07.093Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/模拟法庭/.promptx/resource/role/labor-law-expert/knowledge/labor-law-expertise.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "legal-practice",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Legal Practice 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/role/labor-law-expert/knowledge/legal-practice.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-07-06T06:58:07.093Z",
+        "updatedAt": "2025-07-06T06:58:07.093Z",
+        "scannedAt": "2025-07-06T06:58:07.093Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/模拟法庭/.promptx/resource/role/labor-law-expert/knowledge/legal-practice.knowledge.md",
+        "fileType": "knowledge"
+      }
+    }
+  ],
+  "stats": {
+    "totalResources": 6,
+    "byProtocol": {
+      "role": 1,
+      "thought": 1,
+      "execution": 2,
+      "knowledge": 2
+    },
+    "bySource": {
+      "project": 6
+    }
+  }
+}
